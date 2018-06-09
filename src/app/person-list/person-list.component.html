@@ -1,0 +1,11 @@
+<div class="activity">{{activity.Name}}</div>
+<div class="blurb">The following people have already signed up.</div>
+<div class="list" *ngIf="persons && persons.length">
+  <div class="item" *ngFor="let person of persons">
+    <app-person-detail [person]="person"></app-person-detail>
+  </div>
+</div>
+<div class="noresults" *ngIf="!persons || !persons.length">
+  No one has signed up for this activity yet
+</div>
+<button (click)="goBack()">Go Back</button>

@@ -1,0 +1,12 @@
+h2 {
+    color: #333333;
+}
+.listcontainer {
+    width: 500px;
+    margin: auto;
+    text-align: left;
+}
+.listItem {
+    margin: 10px 0;
+}
+

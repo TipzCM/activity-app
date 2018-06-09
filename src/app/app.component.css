@@ -1,0 +1,11 @@
+* {
+    color: #333333;
+}
+h1 {
+    color: cornflowerblue;
+}
+.line {
+    background: #CCCCCC;
+    height: 1px;
+    margin-bottom: 20px;
+}

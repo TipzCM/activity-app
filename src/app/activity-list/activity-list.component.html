@@ -1,0 +1,7 @@
+<h2>The activities we have this month are as follows:</h2>
+
+<div class="listcontainer">
+  <div class="listItem" *ngFor="let activity of activities">
+    <a routerLink="/activities/{{activity.id}}">{{activity.Name}}</a>
+  </div>
+</div>

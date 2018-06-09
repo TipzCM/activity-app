@@ -1,0 +1,17 @@
+<div>
+  <h2>{{activity.Name}}</h2>
+  <div class="description">
+    {{activity.description}}
+  </div>
+  <div class="linkparent">
+      <a routerLink="/activities/{{activity.id}}/people">
+        See who's already signed up.
+      </a>
+    </div>
+  <div class="linkparent">
+    <a routerLink="/activities/{{activity.id}}/signup">Click here to sign up!</a>
+  </div>
+  <div class="back">
+    <button (click)="goBack()">Go back</button>
+  </div>
+</div>

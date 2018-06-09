@@ -1,0 +1,15 @@
+.label {
+    font-weight: bold;
+    padding-right: 10px;
+}
+.title {
+    font-style: italic;
+    padding-right: 5px;
+}
+.section {
+    padding: 2px 0;
+}
+.noresults {
+    color: #eeeeee;
+    font-style: italic;
+}

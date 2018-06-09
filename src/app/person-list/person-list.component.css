@@ -1,0 +1,21 @@
+.activity {
+    font-weight: bold;
+}
+.noresults {
+    padding: 20px;
+    font-style: italic;
+    font-size: 16px;
+    color: #999999;
+}
+.list {
+    margin: auto;
+    width: 500px;
+    padding: 10px 0;
+}
+.item {
+    text-align: left;
+    padding: 10px 0;
+}
+.item + .item {
+    border-top: 1px solid #CCCCCC;
+}

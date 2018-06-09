@@ -1,0 +1,41 @@
+.wrapper {
+    margin: auto;
+    width: 500px;
+}
+.title {
+    font-weight: bold;
+    color: #666666;
+}
+.required {
+    color: red;
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+.form {
+    text-align: left;
+    width: 100%;
+}
+.section {
+    padding: 10px 0;
+    width: 100%;
+}
+.section input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #eeeeee;
+}
+
+.commentslabel {
+    color: #666666;
+}
+.textarea {
+    width: 100%;
+    resize: vertical;
+    border-radius: 3px;
+    border: 1px solid #eeeeee;
+    height: 75px;
+}
+button + button {
+    margin-left: 20px;
+}

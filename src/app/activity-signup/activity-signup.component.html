@@ -1,0 +1,24 @@
+<div class="wrapper">
+  <!-- Not Translation Friendly :( -->
+  <div class="title">Signing Up For {{activity.Name}}</div>
+  <div class="form">
+    <div class="section">
+      <span class="required">*required</span>
+      <input [(ngModel)]="person.FirstName" placeholder="First Name" />
+    </div>
+    <div class="section">
+      <span class="required">*required</span>
+      <input [(ngModel)]="person.LastName" placeholder="Last Name" />
+    </div>
+    <div class="section">
+      <span class="required">*required</span>
+      <input [(ngModel)]="person.Email" placeholder="Email" />
+    </div>
+    <div class="section">
+      <div class="commentslabel">Comments</div>
+      <textarea [(ngModel)]="person.Comments" class="textarea"></textarea>
+    </div>
+  </div>
+  <button (click)="save()">Save</button>
+  <button (click)="cancel()">Cancel</button>
+</div>

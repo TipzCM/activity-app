@@ -1,0 +1,22 @@
+<div>
+  <div class="noresults" *ngIf="!person">
+    No Person Found
+  </div>
+  <div *ngIf="person">
+      <div class="section">
+          <label class="label">{{person.Email}}</label>
+        </div>
+      <div class="section">
+          <label class="title">First Name:</label>
+          <label class="label">{{person.FirstName}}</label>
+        </div>
+        <div class="section">
+          <label class="title">Last Name:</label>
+          <label class="label">{{person.LastName}}</label>
+        </div>
+        <div class="section">
+          <div>Comments:</div>
+          <div class="label">{{person.Comments}}</div>
+        </div>
+  </div>
+</div>
